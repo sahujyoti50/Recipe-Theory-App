@@ -1,0 +1,11 @@
+<div style="display: inline-flex; width:100%">
+    <div style="width:70%">
+        <app-recipe-list [recipes]="recipeList" (getselectedDetails)="getselectedDetails($event)"></app-recipe-list>
+    </div>
+    <div style="width:30%">
+        <app-recipe-details *ngIf="selectedRecipe; else infoText" [selectedRecipe]="selectedRecipe"></app-recipe-details>
+        <ng-template #infoText>
+            <p>Plaese select the Recipe!!</p>
+        </ng-template>
+    </div>
+</div>

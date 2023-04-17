@@ -1,0 +1,3 @@
+<ul *ngFor="let recipe of recipes">
+    <app-recipe-item [recipe]="recipe" (getDetails)="getDetails($event)"></app-recipe-item>
+</ul>

@@ -1,0 +1,14 @@
+<div class="card mb-3" style="width:800px;height:180px">
+    <div class="row g-0">
+        <div class="col-md-4">
+            <img src={{recipe.imgPath}} class="card-img-top" alt="..." style="height:179px;">
+        </div>
+        <div class="col-md-8">
+            <div class="card-body">
+                <h5 class="card-title">{{recipe.name}}</h5>
+                <p class="card-text">{{recipe.description}}</p>
+                <button type="button" class="btn btn-primary"  (click)="onSelect()">Get Details</button>
+            </div>
+        </div>
+    </div>
+</div>

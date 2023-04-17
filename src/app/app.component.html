@@ -1,0 +1,9 @@
+<app-header (fetchHeader)="fetchHeaderApp($event)"></app-header>
+<div class="container" style="margin:40px 0px;">
+    <div class="row">
+        <div class="col-md-12" >
+            <app-recipes *ngIf="title==='recipe'">Recipe</app-recipes>
+            <h3 *ngIf="title==='shopping'">Shoppong List</h3>
+        </div>
+    </div>
+</div>
