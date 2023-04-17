@@ -1,5 +1,9 @@
 # Blog
 
+Preview:
+
+![image](https://user-images.githubusercontent.com/15225177/232466325-e7f9d018-8ec8-47ee-b3dd-1d3bd145cb0c.png)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.5.
 
 ## Development server
